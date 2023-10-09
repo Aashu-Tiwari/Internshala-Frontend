@@ -1,0 +1,45 @@
+.nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.348);
+    /* opacity: .2; */
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search p{
+    font-size:18px ;
+    margin-top: 15px;
+    color: black;
+    font-family: "gilroy";
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+.but button{
+    background-color: #fff;
+    width: 70px;
+    border-radius: 5px;
+    border: 2px solid #00A5EC;
+    color: #00A5EC;
+}
+.line{
+    height: 45px;
+    width: 1px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.search h4{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "gilroy";
+    margin-top: 10px;
+    margin-left: 10px;
+}
+

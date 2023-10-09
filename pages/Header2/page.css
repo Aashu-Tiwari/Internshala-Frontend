@@ -1,0 +1,41 @@
+.nav{
+    height: 80px;
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.348);
+    /* opacity: .2; */
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons p:hover{
+    cursor: pointer;
+    color: #00a5ec;
+}
+.mainp{
+    font-family: "gilroy";
+    font-weight: 600;
+}
+.userp{
+    margin-top: -10px;
+    margin-left: 10px;
+    height: 10.5vh;
+    width: 80px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.userp p{
+    margin-top: 10px;
+}
+.userp:hover{
+    cursor: pointer;
+    background-color: #EAFCFF;
+}

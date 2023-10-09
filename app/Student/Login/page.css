@@ -1,0 +1,61 @@
+.mainpage{
+    padding: 70px;
+    display: flex;
+}
+.student{
+    margin-left: 200px;
+    height: 500px;
+    width: 30%;
+    background-color: #008BDC;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.text{
+    padding: 20px;
+}
+.text h1 {
+    font-size: 28px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.text h4{
+    color: #fff;
+    white-space: nowrap;
+    font-family: "gilroy";
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.text h4:hover{
+    cursor: pointer;
+}
+.text h6{
+    /* margin-top: 20px; */
+    font-family: "gilroy";
+    color: #fff;
+}
+.text p{
+    text-decoration: none;
+    color: #fff;
+    font-family: "gilroy";
+}
+.finaltext{
+    margin-left: 40px;
+    margin-top: 40px;
+    display:flex;
+    gap: 20px;
+}
+.finaltext button{
+    margin-top: -2px;
+    color: #fff;
+    font-family: "gilroy";
+    text-decoration: none;
+    background-color: green;
+}

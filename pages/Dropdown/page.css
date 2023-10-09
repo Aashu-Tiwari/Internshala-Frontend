@@ -1,0 +1,29 @@
+.mainul{
+    position: absolute;
+    margin-top: 40px;
+    z-index: 1;
+    right: 8%;
+    /* border: 1px solid black; */
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px #49494975;
+    border-radius: 10px;
+}
+.mainul li{
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: "gilroy";
+    font-weight: 500;
+    margin-left: -22px;
+    text-decoration: none;
+    text-underline-offset: none;
+    color: black;
+}
+.mainul a{
+    text-decoration: none;
+
+}
+.mainul li:hover{
+    cursor: pointer;
+    color: #4292DC;
+}
