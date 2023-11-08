@@ -1,9 +1,11 @@
 import React from 'react'
+import Header2 from '@/pages/Header2/page'
+
 
 const page = () => {
   return (
     <div>
-        whenever student login so it will show this page 
+        <Header2/>
     </div>
   )
 }

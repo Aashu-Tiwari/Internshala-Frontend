@@ -5,17 +5,21 @@ import { useDispatch, useSelector } from 'react-redux'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 
+
+
+
 const studentLayout = ({children}) => {
   const SignoutHandler = ()=>{
     dispatch(asyncsignoutstudent())
   }
-    const dispatch = useDispatch();
+      const dispatch = useDispatch();
     const router = useRouter()
     const {isAuthenticated} = useSelector((state)=>state.studentReducer)
     console.log(isAuthenticated)
     useEffect(()=>{
         dispatch(asynccurrentstudent());
-        if(isAuthenticated) router.push("/Student/auth")
+        if(isAuthenticated) {router.push("/Student/auth")
+      }
     },[isAuthenticated])
   return <>
   {/* <nav className='container mt-5'>

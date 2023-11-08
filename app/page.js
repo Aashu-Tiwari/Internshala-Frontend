@@ -15,7 +15,7 @@ const page = () => {
   const {isAuthenticated} = useSelector((state)=>state.studentReducer)
   console.log(isAuthenticated)
   useEffect(()=>{
-      if(isAuthenticated) router.push("/Student/auth")
+      if(isAuthenticated) {router.push("/Student/auth")}
   },[isAuthenticated])
   console.log(isAuthenticated)
   return (

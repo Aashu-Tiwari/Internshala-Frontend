@@ -1,7 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  student : null,
+// student: null,
+  student : [],
+//   student:{},
   errors:[],
   isAuthenticated: false
 }
@@ -11,7 +13,7 @@ export const studentReducer = createSlice({
   initialState,
   reducers: {
     addstudent:(state,action) =>{
-        state.student = action.payload
+        state.student = action.payload,
         state.isAuthenticated = true
     },
     removestudent:(state,action) =>{
